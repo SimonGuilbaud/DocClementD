@@ -46,6 +46,7 @@
 
 ## Installation manuelle
 
+---
 
 ### Liste des modules GeoNature avec `code du module`
 + [Import](https://github.com/PnX-SI/gn_module_import) `IMPORT`
