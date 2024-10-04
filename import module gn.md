@@ -20,9 +20,9 @@
   `git clone https://github.com/PnX-SI/gn_module_import.git`
 
 + Passer en environnement virtuel Python  
-  `source <dossier geonature>/backend/venv/bin/activate`  
+  `source <dossier GeoNature>/backend/venv/bin/activate`  
   ```bash
-  source ~/GeoNature/backend/venv/bin/activate
+  source ~/geonature/backend/venv/bin/activate
   ```
 
 + Lancer la commande d'installation automatique  
