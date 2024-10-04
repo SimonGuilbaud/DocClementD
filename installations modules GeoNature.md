@@ -26,7 +26,7 @@
   ```
 
 + Lancer la commande d'installation automatique  
-  `geonature istall-gn-module <dossier GeoNature> <code du module>`  
+  `geonature install-gn-module <dossier GeoNature> <code du module>`  
   ```bash
   geonature install-gn-module ~/gn_module_import/ IMPORT
   ```
@@ -37,11 +37,21 @@
   geonature permissions supergrant --group --nom "Grp_admin"
   ```
 
++ Quitter l'environnement virtuel Python
+  ```bash
+  deactivate
+  ```
+
 + Relancer Geonature et son worker  
   ```bash
   sudo systemctl restart geonature
   sudo systemctl restart geonature-worker
   ```
+
+**Si erreur 404**
+```bash
+systemctlk reload apache2
+```
 
 
 ## Installation manuelle
