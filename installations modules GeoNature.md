@@ -50,7 +50,7 @@
 
 **Si erreur 404**
 ```bash
-systemctlk reload apache2
+systemctl reload apache2
 ```
 
 
