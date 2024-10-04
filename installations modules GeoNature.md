@@ -48,10 +48,7 @@
   sudo systemctl restart geonature-worker
   ```
 
-**Si erreur 404**
-```bash
-systemctl reload apache2
-```
+**Si erreur 404 :** `systemctl reload apache2`
 
 
 ## Installation manuelle
