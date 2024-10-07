@@ -74,3 +74,21 @@ TODO
 
 ### Sous-modules du module Monitoring
 + [Liste des sous-modules](https://github.com/PnX-SI/protocoles_suivi)
+
+#### Installation
++ Cloner le repository des protocoles de suivis (lien ci-dessus) `git clone`
+
++ Déplacer le dossier du sous-module souhaité au chemin suivant de son installaton du module Monitoring
+```bash
+mv ~/protocoles_suivi/DOSSIER DU SOUS-MODULE ~/gn_module_monitoring/contrib
+```
++ Créer un lien symbolique vers le dossierdu sous-module dans le dossier Media de GeoNature
+```bash
+ln -s ~/gn_module_monitoring/contrib/DOSSIER DU SOUS-MODULE ~/geonature/backend/media/monitorings/DOSSIER DU SOUS-MODULE
+```
++ Lancer la commande d'installation
+```bash
+geonature monitorings install CODE OU NOM DU MODULE
+```
++ Donner les permissions adéquates (comme pour un module GeoNature)
++ Configurer le sous-module (via l'interface graphique directement dans le module Monitoring)
