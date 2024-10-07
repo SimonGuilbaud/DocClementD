@@ -47,11 +47,14 @@
   sudo systemctl restart geonature
   sudo systemctl restart geonature-worker
   ```
+   
+**Si erreur 404 :** `systemctl reload apache2`   
+**Si erreur 503 :** `sudo reboot`
 
-**Si erreur 404 :** `systemctl reload apache2`
-
+---
 
 ## Installation manuelle
+TODO
 
 ---
 
@@ -66,3 +69,8 @@
 + [Zones Humides](https://github.com/PnX-SI/gn_module_ZH) `ZONES_HUMIDES`
 + [Modulator](https://github.com/PnX-SI/gn_modulator) `MODULATOR`
 + [Dashboard](https://github.com/PnX-SI/gn_module_dashboard) `DASHBOARD`
+
+---
+
+### Sous-modules du module Monitoring
++ [Liste des sous-modules](https://github.com/PnX-SI/protocoles_suivi)
